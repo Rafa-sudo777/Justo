@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F3211C9285AE05C004FFAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211C8285AE05C004FFAC3 /* AppDelegate.swift */; };
+		8F3211D2285AE05D004FFAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3211D1285AE05D004FFAC3 /* Assets.xcassets */; };
+		8F3211D5285AE05D004FFAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3211D3285AE05D004FFAC3 /* LaunchScreen.storyboard */; };
+		8F3211DE285AE0F3004FFAC3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211DC285AE0F3004FFAC3 /* ProfileViewController.swift */; };
+		8F3211DF285AE0F3004FFAC3 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3211DD285AE0F3004FFAC3 /* ProfileViewController.xib */; };
+		8F3211E3285AE120004FFAC3 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211E0285AE120004FFAC3 /* ProfilePresenter.swift */; };
+		8F3211E4285AE120004FFAC3 /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211E2285AE120004FFAC3 /* ProfileProtocols.swift */; };
+		8F3211E8285AE13F004FFAC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211E7285AE13F004FFAC3 /* User.swift */; };
+		8F3211EA285AE171004FFAC3 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211E9285AE171004FFAC3 /* NetworkHelper.swift */; };
+		8F3211EE285AE197004FFAC3 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3211EC285AE197004FFAC3 /* ProfileCell.swift */; };
+		8F3211EF285AE197004FFAC3 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3211ED285AE197004FFAC3 /* ProfileCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F3211C5285AE05C004FFAC3 /* justo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3211C8285AE05C004FFAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F3211D1285AE05D004FFAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3211D4285AE05D004FFAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F3211D6285AE05D004FFAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3211DC285AE0F3004FFAC3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8F3211DD285AE0F3004FFAC3 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		8F3211E0285AE120004FFAC3 /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		8F3211E2285AE120004FFAC3 /* ProfileProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
+		8F3211E7285AE13F004FFAC3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8F3211E9285AE171004FFAC3 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8F3211EC285AE197004FFAC3 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		8F3211ED285AE197004FFAC3 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F3211C2285AE05C004FFAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F3211BC285AE05C004FFAC3 = {
+			isa = PBXGroup;
+			children = (
+				8F3211C7285AE05C004FFAC3 /* justo */,
+				8F3211C6285AE05C004FFAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F3211C6285AE05C004FFAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F3211C5285AE05C004FFAC3 /* justo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F3211C7285AE05C004FFAC3 /* justo */ = {
+			isa = PBXGroup;
+			children = (
+				8F3211C8285AE05C004FFAC3 /* AppDelegate.swift */,
+				8F3211F0285AE3DF004FFAC3 /* Presenter */,
+				8F3211E5285AE128004FFAC3 /* View */,
+				8F3211E1285AE120004FFAC3 /* Protocols */,
+				8F3211E7285AE13F004FFAC3 /* User.swift */,
+				8F3211E9285AE171004FFAC3 /* NetworkHelper.swift */,
+				8F3211D1285AE05D004FFAC3 /* Assets.xcassets */,
+				8F3211D3285AE05D004FFAC3 /* LaunchScreen.storyboard */,
+				8F3211D6285AE05D004FFAC3 /* Info.plist */,
+			);
+			path = justo;
+			sourceTree = "<group>";
+		};
+		8F3211E1285AE120004FFAC3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8F3211E2285AE120004FFAC3 /* ProfileProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8F3211E5285AE128004FFAC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F3211EB285AE177004FFAC3 /* Cell */,
+				8F3211DC285AE0F3004FFAC3 /* ProfileViewController.swift */,
+				8F3211DD285AE0F3004FFAC3 /* ProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F3211EB285AE177004FFAC3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8F3211EC285AE197004FFAC3 /* ProfileCell.swift */,
+				8F3211ED285AE197004FFAC3 /* ProfileCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8F3211F0285AE3DF004FFAC3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8F3211E0285AE120004FFAC3 /* ProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F3211C4285AE05C004FFAC3 /* justo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3211D9285AE05D004FFAC3 /* Build configuration list for PBXNativeTarget "justo" */;
+			buildPhases = (
+				8F3211C1285AE05C004FFAC3 /* Sources */,
+				8F3211C2285AE05C004FFAC3 /* Frameworks */,
+				8F3211C3285AE05C004FFAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = justo;
+			productName = justo;
+			productReference = 8F3211C5285AE05C004FFAC3 /* justo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F3211BD285AE05C004FFAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8F3211C4285AE05C004FFAC3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F3211C0285AE05C004FFAC3 /* Build configuration list for PBXProject "justo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F3211BC285AE05C004FFAC3;
+			productRefGroup = 8F3211C6285AE05C004FFAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F3211C4285AE05C004FFAC3 /* justo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F3211C3285AE05C004FFAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3211DF285AE0F3004FFAC3 /* ProfileViewController.xib in Resources */,
+				8F3211EF285AE197004FFAC3 /* ProfileCell.xib in Resources */,
+				8F3211D5285AE05D004FFAC3 /* LaunchScreen.storyboard in Resources */,
+				8F3211D2285AE05D004FFAC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F3211C1285AE05C004FFAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3211DE285AE0F3004FFAC3 /* ProfileViewController.swift in Sources */,
+				8F3211C9285AE05C004FFAC3 /* AppDelegate.swift in Sources */,
+				8F3211E3285AE120004FFAC3 /* ProfilePresenter.swift in Sources */,
+				8F3211E8285AE13F004FFAC3 /* User.swift in Sources */,
+				8F3211EA285AE171004FFAC3 /* NetworkHelper.swift in Sources */,
+				8F3211E4285AE120004FFAC3 /* ProfileProtocols.swift in Sources */,
+				8F3211EE285AE197004FFAC3 /* ProfileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F3211D3285AE05D004FFAC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F3211D4285AE05D004FFAC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F3211D7285AE05D004FFAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F3211D8285AE05D004FFAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F3211DA285AE05D004FFAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24Z3VMBHP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = justo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Switch.justo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F3211DB285AE05D004FFAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24Z3VMBHP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = justo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Switch.justo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F3211C0285AE05C004FFAC3 /* Build configuration list for PBXProject "justo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3211D7285AE05D004FFAC3 /* Debug */,
+				8F3211D8285AE05D004FFAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3211D9285AE05D004FFAC3 /* Build configuration list for PBXNativeTarget "justo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3211DA285AE05D004FFAC3 /* Debug */,
+				8F3211DB285AE05D004FFAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F3211BD285AE05C004FFAC3 /* Project object */;
+}
